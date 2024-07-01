@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gridView", "gridView\gridView.csproj", "{5AAE3A65-0A40-4F56-B4D2-CD74A0B06936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{5D9BF5A4-19A1-446C-B662-F96714554C56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AAE3A65-0A40-4F56-B4D2-CD74A0B06936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAE3A65-0A40-4F56-B4D2-CD74A0B06936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAE3A65-0A40-4F56-B4D2-CD74A0B06936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAE3A65-0A40-4F56-B4D2-CD74A0B06936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9BF5A4-19A1-446C-B662-F96714554C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9BF5A4-19A1-446C-B662-F96714554C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9BF5A4-19A1-446C-B662-F96714554C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9BF5A4-19A1-446C-B662-F96714554C56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0D56E02-6FEA-4FF6-A730-B0A3C3029AFA}
+	EndGlobalSection
+EndGlobal
