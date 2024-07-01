@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gridView", "gridView\gridVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{5D9BF5A4-19A1-446C-B662-F96714554C56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio\Negocio.csproj", "{40CEFC80-17BB-48F3-A360-26843977046F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5D9BF5A4-19A1-446C-B662-F96714554C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D9BF5A4-19A1-446C-B662-F96714554C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D9BF5A4-19A1-446C-B662-F96714554C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CEFC80-17BB-48F3-A360-26843977046F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CEFC80-17BB-48F3-A360-26843977046F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CEFC80-17BB-48F3-A360-26843977046F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CEFC80-17BB-48F3-A360-26843977046F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
