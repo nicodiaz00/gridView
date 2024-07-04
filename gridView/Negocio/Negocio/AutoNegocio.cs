@@ -20,7 +20,7 @@ namespace Negocio
             listaAuto[0].Descripcion = "Auto vw, modelo golf";
             listaAuto[0].Color = "Blanco";
             listaAuto[0].Fecha = DateTime.Now;
-            listaAuto[0].Usado = true;
+            listaAuto[0].Usado = "Usado";
             listaAuto[0].Importado = true;
 
             listaAuto[1].Id = 2;
@@ -28,7 +28,7 @@ namespace Negocio
             listaAuto[1].Descripcion = "Auto rojo marca ford";
             listaAuto[1].Color = "Rojo";
             listaAuto[1].Fecha = DateTime.Now;
-            listaAuto[1].Usado =false;
+            listaAuto[1].Usado ="Nuevo";
             listaAuto[1].Importado = false;
             
             return listaAuto;

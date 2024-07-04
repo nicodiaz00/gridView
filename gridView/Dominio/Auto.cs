@@ -13,7 +13,7 @@ namespace Dominio
         public string Descripcion { get; set; }
         public string Color {  get; set; }
         public DateTime Fecha { get; set; }
-        public bool Usado {  get; set; }
+        public string Usado {  get; set; }
         public bool Importado {  get; set; }
 
     }

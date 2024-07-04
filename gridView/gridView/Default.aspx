@@ -9,6 +9,7 @@
             <div class="col-10">
                 <asp:GridView ID="dgvAuto" runat="server" CssClass="table table-striped table-dark">
                 </asp:GridView>
+                <asp:Button runat="server" ID="buttonAdd" Text="Ingresar Auto" class="btn btn-outline-primary" OnClick="buttonAdd_Click"/>
             </div>
         </div>
     </div>

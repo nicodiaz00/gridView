@@ -13,10 +13,20 @@ namespace gridView
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            AutoNegocio autoNegocio = new AutoNegocio();
+            if (Session["listaAutos"] == null)
+            {
+                AutoNegocio autoNegocio = new AutoNegocio();
+                Session.Add("listaAutos", autoNegocio.listarAuto());
+            }
 
-            dgvAuto.DataSource = autoNegocio.listarAuto();
+
+            dgvAuto.DataSource = Session["listaAutos"];
             dgvAuto.DataBind();
+        }
+
+        protected void buttonAdd_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Formulario.aspx", false);
         }
     }
 }
